@@ -1,0 +1,80 @@
+.kalkulator {
+    width: 350px;
+    background-color: white;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 5px 4px rgb(223, 221, 221));
+}
+
+#layar {
+    width: 100%;
+    height: 115px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    filter: drop-shadow(-10px -10px 25px #F4F7FA);
+    filter: drop-shadow(10px 10px 25px #AEAEC0);
+    font-size: 50px;
+    padding: 7px 5px;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.container-tombol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tombol {
+    display: flex;
+    box-sizing: border-box;
+    width: 20%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: medium;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px 5px 5px;
+    box-shadow: 7px 7px 15px #3e528b69;
+    outline: none;
+}
+
+.atas {
+    margin-top: 50px;
+}
+
+.tombol:hover {
+    background-color: rgb(233, 255, 255);
+    cursor: pointer;
+}
+
+#nol {
+    flex-grow: 0.7;
+}
+
+.operator {
+    background-color: #0BC2FF;
+}
+
+.jumlah {
+    background-color: #FF800B;
+}
+
+.operator:hover {
+    background-color: #0BC2FF;
+}
+
+.jumlah:hover {
+    background-color: #FF800B;
+}
+
+@media screen and (max-width: 513px) {
+    .tombol {
+        padding: 10px;
+    }
+ }
